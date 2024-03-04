@@ -25,8 +25,8 @@ Build video link: https://www.youtube.com/watch?v=vf54ca9IuP4&t=11s
 1. Install the Arduino IDE (https://www.arduino.cc/en/software)
 2. In the Arduino IDE, install these libraries: 
 	- From the IDE Library Manager: Time
+ 	- From this repository: RTClib-Master (this is an older version of RTClib, the newer (https://github.com/adafruit/RTClib) version works too, but is missing some examples)
 	- From GitHub: https://github.com/JChristensen/DS3232RTC
-	- From GitHub: https://github.com/adafruit/RTClib
 	- From GitHub: https://github.com/rocketscream/Low-Power
 3. Add board definitions for the ESP32-Cam to your Arduino IDE by following this short guide: https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
 	- **IMPORTANT NOTE:** Certain versions of the ESP32 board definitions (arduino-esp32) are known to cause issues with SD card mounting. DO NOT use version 2.0.0. I have found the most recent, stable version to be 2.0.4. 
