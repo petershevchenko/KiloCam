@@ -105,6 +105,8 @@ The steps below are likely to be repeated for any given deployment. In the KiloC
 
 
  ## Building Your KiloCam Spawning-Camera
+Follow the written instructions below, or follow this video: https://youtu.be/gGp1QWvjenc
+ 
 When you recieved your spawning camera it should include the following: 
 - A KiloCam PCB and ESP32-Cam PCB. Note: The ESP32-Cam PCB is already programmed and you will not need to follow the steps above in this readme unless you want to reprogram it. The KiloCam PCB IS NOT pre-programmed unless otherwise arranged.
 - A BlueRobotics 11.8" underwater housing complete with an acrylic front endcap (with camera installed), a 3D-printed chassis, and a rear endcap with a Lumen underwater LED installed.
