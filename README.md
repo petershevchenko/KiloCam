@@ -17,11 +17,11 @@ Build video link: https://www.youtube.com/watch?v=vf54ca9IuP4&t=11s
 	- Note: Two varieties exist. Know if the one you buy comes with a separate programming board, or if you need to buy a USB-to-serial FTDI programmer. ESP32-Cam units that come with an attached programming board cannot be programmed with the FTDI programmer you'll use to program the KiloCam PCB.
 - A USB-to-serial FTDI programmer and five female-female jumper cables
 - A CR1220 coin cell battery
-- A battery (3.7 V - 8 V) and a matching connector
+- A battery (3.7 V - 8 V) and a matching connector. If using a GoPro underwater housing, these work well: https://www.ebay.com/itm/196498098699?itmmeta=01J5DS43H8NEFS5NGT9644TM7Z&hash=item2dc0330a0b:g:r~gAAOSwcuVfl8Rf
 - A microSD card formatted to FAT32
 	- Note: Because of file system limitations of the ESP32-Cam, cards larger than 4GB will only save up to 4 GB of information. Each photo is about 100 kb, so that is still **a lot** of photos.
-- A small screwdriver
-- A laptop to program
+- A small flathead screwdriver
+- A laptop to program with
 
 ### Preparing your lap top: 
 1. Install the Arduino IDE (https://www.arduino.cc/en/software)
