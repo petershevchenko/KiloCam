@@ -31,7 +31,7 @@ Build video link: https://www.youtube.com/watch?v=vf54ca9IuP4&t=11s
 	- From GitHub: https://github.com/JChristensen/DS3232RTC
 	- From GitHub: https://github.com/rocketscream/Low-Power
 3. Add board definitions for the ESP32-Cam to your Arduino IDE by following this short guide: https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
-	- **IMPORTANT NOTE:** Certain versions of the ESP32 board definitions (arduino-esp32) are known to cause issues with SD card mounting. DO NOT use version 2.0.0. I have found the most recent, stable version to be 2.0.4. 
+	- **IMPORTANT NOTE:** Certain versions of the ESP32 board definitions (arduino-esp32) are known to cause issues with SD card mounting and camera performance on the ESP32-Cam. When installing the "esp32" board definitions in the Arduino Board manager please only use version 2.0.4 from the drop down menu.
 4. Ensure your laptop recognizes your FTDI programmer
 	- **With the FTDI unplugged** check under Tools > Port in the Arduino IDE. 
 	- **Plug in the FTDI** and check again under Tools > Port again. You should see a new serial port as available. If you do not, follow this troubleshooting guide: https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers
