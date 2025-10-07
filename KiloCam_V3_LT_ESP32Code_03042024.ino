@@ -115,6 +115,8 @@ void setup() {
   
   // Initialize camera 
   camera_config_t config;
+  // force the frame buffer to be in psRAM
+  config.fb_location = CAMERA_FB_IN_PSRAM;
   config.ledc_channel = LEDC_CHANNEL_0;
   config.ledc_timer = LEDC_TIMER_0;
   config.pin_d0 = Y2_GPIO_NUM;
@@ -297,7 +299,9 @@ void setup() {
       //delay(250); // Spacing between photos
   
     }
-
+  // Unmount the SD card
+  SD_MMC.end();
+  
   // Turns off the ESP32-CAM white on-board LED (flash) connected to GPIO 4
   rtc_gpio_hold_en(GPIO_NUM_4);
   digitalWrite(4, LOW);
@@ -310,6 +314,7 @@ void setup() {
 
 void loop() {  
 }
+
 
 
 
